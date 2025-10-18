@@ -1,8 +1,6 @@
-**Spring vs Spring Boot — IoC Container y Spring Initializr**
+## **Spring vs Spring Boot — IoC Container y Spring Initializr**
 
 ---
-
-### **Objetivo del tema**
 
 Comprender las diferencias entre **Spring** y **Spring Boot**, los beneficios de usar Spring Boot para acelerar el desarrollo, y los fundamentos de la **Inversión de Control (IoC)** junto con el uso del **Spring Initializr** para crear nuevos proyectos.
 
@@ -80,13 +78,14 @@ Spring Boot simplifica la creación de aplicaciones basadas en Spring al automat
 
 > Spring · Spring Boot · IoC · Dependency Injection · Configuración externa · Initializr · Servidor embebido
 
----
-
-## **Tema o Módulo:**
-
-**API Contracts & JSON**
+*Important documentation: ([info IoC container](https://docs.spring.io/spring-framework/reference/core/beans.html))*
 
 ---
+
+---
+
+## **API Contracts & JSON**
+
 
 ### **Objetivo del tema**
 
