@@ -2,16 +2,25 @@ package com.daruuu.cashcard;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/cashcard")
+@RequestMapping("/cashcards")
 class CashCardController {
 
     //  add a handler method:
+/*
     @GetMapping("/{requestedId}")
     private ResponseEntity<String> findById() {
         return ResponseEntity.ok("{}");
+    }
+*/
+
+    @GetMapping("/{requestId}")
+    private ResponseEntity<CashCard> findById() {
+        CashCard cashCard = new CashCard(99L, 0.0);
+        return ResponseEntity.ok(cashCard);
     }
 }
